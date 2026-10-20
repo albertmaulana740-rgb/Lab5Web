@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+  transition: background-color 0.3s;
+}
+
+h1 { margin-bottom: 4px; }
+
+.catatan { font-size: 0.9rem; color: #6b7280; }
+
+.kartu {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 14px 0;
+}
+
+.kartu h2 { font-size: 1.1rem; margin-top: 0; }
+.kartu h3 { font-size: 1rem; margin-bottom: 6px; }
+
+button {
+  padding: 6px 12px;
+  margin: 4px 4px 4px 0;
+  border: 1px solid #2563eb;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover { background: #1d4ed8; }
+
+input[type="number"], input[type="text"] {
+  padding: 5px 8px;
+  border: 1px solid #9ca3af;
+  border-radius: 4px;
+}
+
+.baris { margin-bottom: 8px; }
+.baris label { display: inline-block; min-width: 150px; }
+
+.output {
+  background: #f3f4f6;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 8px;
+  white-space: pre-wrap;
+}
+
+.output:empty { display: none; }
+
+.sukses { color: #15803d; font-weight: bold; }
+.gagal  { color: #b91c1c; font-weight: bold; }
